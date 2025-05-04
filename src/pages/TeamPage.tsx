@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import Team from '../components/Team';
 import Footer from '../components/Footer';
 // Import the team banner image
-import teamBanner from '../assets/images/team.jpeg';
+import teamBanner from '../assets/images/Team.jpeg';
 
 const TeamPage: React.FC = () => {
   return (
