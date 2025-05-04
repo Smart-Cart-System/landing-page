@@ -4,10 +4,10 @@ import { Linkedin, Github } from 'lucide-react';
 const teamMembers = [
   {
     name: 'Marwan Hazem',
-    role: 'Team Lead & Full Stack Developer',
-    image: 'https://images.unsplash.com/photo-1568602471122-7832951cc4c5?auto=format&fit=crop&w=300&q=80',
-    linkedin: '#',
-    github: '#'
+    role: 'Team Lead & Backend Engineer',
+    image: 'https://avatars.githubusercontent.com/u/105920111?v=4',
+    linkedin: 'www.linkedin.com/in/marwan-elzafarani',
+    github: 'https://github.com/Zafaranii'
   },
   {
     name: 'Omar Ahmed',
@@ -25,10 +25,10 @@ const teamMembers = [
   },
   {
     name: 'Abdelmalek Osama',
-    role: 'AI Engineer',
-    image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=300&q=80',
-    linkedin: '#',
-    github: '#'
+    role: 'AI/Backend Engineer',
+    image: 'https://avatars.githubusercontent.com/u/126019678?v=4',
+    linkedin: 'https://www.linkedin.com/in/abdelmalek-sobhy-2003aoms/n',
+    github: 'https://github.com/Abdelmalek-Osama'
   },
 
   {
