@@ -2,6 +2,8 @@ import React from 'react';
 import { Linkedin, Github } from 'lucide-react';
 import { Link, useLocation } from 'react-router-dom';
 import omarAnwarImage from '../assets/images/image.png';
+// Import supervisor image
+import supervisorImage from '../assets/images/supervisor.png'; // Add this image to your assets folder
 
 // Updated team members with IDs for routing
 const teamMembers = [
@@ -60,19 +62,32 @@ const Team: React.FC = () => {
   const isTeamPage = location.pathname === '/team';
   
   // Display all team members regardless of page
-  // No more slicing to show just a few on homepage
   const displayedMembers = teamMembers;
   
   return (
     <section className="py-20 bg-white">
       <div className="container mx-auto px-6">
+        {/* Supervisor section moved above the team heading */}
+        <div className="mb-16 text-center">
+          <div className="flex flex-col items-center">
+            <div className="w-32 h-32 rounded-full overflow-hidden mb-4 border-4 border-blue-100">
+              <img 
+                src={supervisorImage} 
+                alt="Dr. Mohamed Aboul-Dahab" 
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <p className="text-xl text-gray-700 font-medium">
+              Supervised by Dr. Mohamed Aboul-Dahab
+            </p>
+          </div>
+        </div>
+        
         <h2 className="text-4xl font-bold text-center text-gray-800 mb-4">
           Meet Our Team
         </h2>
-        <p className="text-center text-gray-600 mb-16">
-          Supervised by Dr. Mohamed Aboul-Dahab
-        </p>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
+        
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mb-20">
           {displayedMembers.map((member, index) => (
             <div
               key={index}
@@ -116,8 +131,6 @@ const Team: React.FC = () => {
             </div>
           ))}
         </div>
-        
-        {/* Removed the "View All Team Members" button */}
       </div>
     </section>
   );

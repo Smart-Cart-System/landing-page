@@ -16,6 +16,16 @@ const teamMembers = [
     bio: 'Team Lead & Backend Engineer with expertise in backend development and project management.'
   },
   {
+    id: 'abdelmalek-osama',
+    name: 'Abdelmalek Osama',
+    role: 'AI / Backend Engineer',
+    image: 'https://avatars.githubusercontent.com/u/126019678?v=4',
+    linkedin: 'https://www.linkedin.com/in/abdelmalek-sobhy-2003aoms/n',
+    github: 'https://github.com/Abdelmalek-Osama',
+    website: '',
+    bio: 'AI and Backend Engineer specializing in machine learning algorithms and robust backend systems.'
+  },
+  {
     id: 'omar-ahmed',
     name: 'Omar Ahmed',
     role: 'Data Engineer / Web Developer',
@@ -36,16 +46,6 @@ const teamMembers = [
     bio: 'IoT Specialist focusing on developing connected device solutions and smart systems.'
   },
   {
-    id: 'abdelmalek-osama',
-    name: 'Abdelmalek Osama',
-    role: 'AI / Backend Engineer',
-    image: 'https://avatars.githubusercontent.com/u/126019678?v=4',
-    linkedin: 'https://www.linkedin.com/in/abdelmalek-sobhy-2003aoms/n',
-    github: 'https://github.com/Abdelmalek-Osama',
-    website: '',
-    bio: 'AI and Backend Engineer specializing in machine learning algorithms and robust backend systems.'
-  },
-  {
     id: 'khaled-hegazy',
     name: 'Khaled Hegazy',
     role: 'Frontend Developer',
@@ -57,9 +57,9 @@ const teamMembers = [
   },
   {
     id: 'omar-anwar',
-    name: omarAnwarImage,
+    name: 'Omar Anwar',
     role: 'Hardware Engineer',
-    image: '../assets/images/image.png',
+    image: omarAnwarImage,
     linkedin: '',
     github: '',
     website: '',
