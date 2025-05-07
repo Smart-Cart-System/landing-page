@@ -6,7 +6,7 @@ const Footer: React.FC = () => {
       <div className="container mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           <div>
-            <h3 className="text-xl font-semibold mb-4">AIoT Smart Cart</h3>
+            <h3 className="text-xl font-semibold mb-4">Ducky Cart</h3>
             <p className="text-gray-400">
               Revolutionizing the retail experience with AI and IoT technology.
             </p>
@@ -14,13 +14,13 @@ const Footer: React.FC = () => {
           <div>
             <h3 className="text-xl font-semibold mb-4">Contact</h3>
             <p className="text-gray-400">
-              Arab Academy for Science, Technology, and Maritime Transport
+              Ducky Cart Team for any inquiries or support.
             </p>
             <a
               href="mailto:contact@aiotsmartcart.com"
               className="text-blue-400 hover:text-blue-300"
             >
-              contact@aiotsmartcart.com
+              duckycarteg@gmail.com
             </a>
           </div>
           <div>
@@ -47,7 +47,7 @@ const Footer: React.FC = () => {
         </div>
         <div className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
           <p>
-            © {new Date().getFullYear()} AIoT Smart Cart. All rights reserved.
+            © {new Date().getFullYear()} Ducky Cart. All rights reserved.
           </p>
         </div>
       </div>
