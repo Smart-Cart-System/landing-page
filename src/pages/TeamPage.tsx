@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import Team from '../components/Team';
 import Footer from '../components/Footer';
 // Import the team banner image
-import teamBanner from '../assets/images/Team.jpeg';
+import teamBanner from '../assets/images/Team.webp';
 import { ArrowLeft } from 'lucide-react';
 
 const TeamPage: React.FC = () => {
