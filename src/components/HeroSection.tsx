@@ -14,9 +14,12 @@ const HeroSection: React.FC = () => {
             <p className="text-xl md:text-2xl mb-8 text-blue-100">
               Seamless shopping experience powered by AI and IoT technology
             </p>
-            <button className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 px-8 rounded-lg transition duration-300 transform hover:scale-105">
+            <a 
+              href="mailto:duckycarteg@gmail.com" 
+              className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 px-8 rounded-lg transition duration-300 transform hover:scale-105"
+            >
               Contact Us
-            </button>
+            </a>
           </div>
           <div className="md:w-1/2 mt-10 md:mt-0 flex justify-center">
             <div className="relative w-80 h-80 bg-white bg-opacity-10 rounded-full flex items-center justify-center">
